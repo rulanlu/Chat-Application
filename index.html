@@ -1,0 +1,44 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!doctype html>
+<html>
+  <head>
+    <title>Fun Chat</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset='UTF-8'>
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+  </head>
+  <body>
+    <div id="frame">
+      <div id="sidepanel">
+        <div class="online-topbar">
+          <p>Online</p>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chat-topbar">
+          <p>Chat Room</p>
+        </div>
+        <div class="messages">
+          <div class="messagelist"></ul>
+        </div>
+        <div class="message-input">
+          <div class="wrap">
+            <form action="">
+              <input id="m" type="text" autocomplete="off" placeholder="Type your message here"/>
+              <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
