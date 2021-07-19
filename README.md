@@ -1,5 +1,5 @@
 # Chat Application
-A chat application created using HTML, CSS, Javascript, and Node.js. Users are able to chat with other users in the same local network, see previous chat history, and change their chat name and colour.
+A chat application created using HTML, CSS, Javascript, and Node.js. Users are able to chat with other users in the same local network using web sockets, see previous chat history, and change their chat name and colour.
 
 To change chat name, type in the following command into the chat bar: /name "new name" (example: /name Steve)
 To change colour, type in the following command into the chat bar: /color "rgb value" (example: /color 009988)
